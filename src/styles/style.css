@@ -1,0 +1,6 @@
+@import url('./fonts');
+
+:root {
+  --font-color-base: #000;
+  --font-btn-main: #0146fe;
+}
