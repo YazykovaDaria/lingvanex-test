@@ -1,10 +1,11 @@
+/* eslint-disable import/no-extraneous-dependencies */
 import 'the-new-css-reset/css/reset.css';
 import '../styles/style.css';
 
-// document.querySelector('#app').innerHTML = `
-//   <div>
-// hi
-//   </div>
-// `;
+import slider from './modules/slider';
 
-// console.log('hi');
+const goApp = () => {
+  slider();
+};
+
+goApp();

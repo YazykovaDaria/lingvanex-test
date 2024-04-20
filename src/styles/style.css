@@ -1,6 +1,10 @@
-@import url('./fonts');
+@import url('./common/index');
+@import url('./components/index');
+@import url('./sections/index');
 
 :root {
   --font-color-base: #000;
-  --font-btn-main: #0146fe;
+  --font-color-contrast: #fff;
+  --btn-color-main: #0146fe;
+  --btn-color-secondary: #f4f6fd;
 }
