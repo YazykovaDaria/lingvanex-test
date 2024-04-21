@@ -65,8 +65,7 @@
   top: 0;
   opacity: 1;
   transition:
-    top 0.7s linear,
-    opacity 0.7s linear;
+    top 0.7s linear;
 }
 
 @media (width < 1024px) {
@@ -76,7 +75,7 @@
   }
 
   .product__inner {
-    gap: 32px;
+    gap: 50px;
   }
 }
 
