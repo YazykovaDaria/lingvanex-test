@@ -5,6 +5,8 @@
 :root {
   --font-color-base: #000;
   --font-color-contrast: #fff;
+  --font-color-secondary: #7a869c;
   --btn-color-main: #0146fe;
   --btn-color-secondary: #f4f6fd;
+  --section-color-bg: #f4f6fd;
 }
