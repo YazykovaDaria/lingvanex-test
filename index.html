@@ -5,256 +5,335 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <style>
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Manrope&display=swap');
-      </style>
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Manrope&display=swap');
+    </style>
     <title>Lingvanex</title>
   </head>
 
   <body class="body">
     <main>
+      <section class="hero">
+        <div class="hero__inner container col-center">
+          <div class="hero__texts col-center">
+            <h2 class="title">Travel and Hospitality</h2>
 
-      <!-- <section class="container hero col-center">
-        <div class="hero__texts col-center">
-          <h2 class="title">Travel and Hospitality</h2>
-
-          <p class="text hero__text">
-            Offline & Online Translation: image translation, translation history, file translation,
-            bookmarks, dictionary meaning.
-          </p>
-        </div>
-<a href="#" class="btn btn--main">Request a free trial</a>
-      </section>
-
-      <section class="solution container  col-center">
-        <div class="solution__texts col-center">
-          <h2 class="title">Our language solution</h2>
-          <p class="text solution__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since </p>
-        </div>
-
-        <div class="row-center solution__cards">
-<article class="card card-sol col-center">
-  <div class="card-sol__texts col-center">
-
-    <h3 class="subtitle">Translation</h3>
-    <p class="text">Unlimited and secure translation for fixed price. Translate billions of characters per day</p>
-  </div>
-
-  <div class="card-sol__img">
-    <img src="./src/assets/images/solution/translation.jpg" alt="image" class="img-cover">
-  </div>
-</article>
-
-<article class="card card-sol col-center">
-  <div class="card-sol__texts col-center">
-
-    <h3 class="subtitle">Social listening</h3>
-    <p class="text">Unlimited and secure translation for fixed price. Translate billions of characters per day</p>
-  </div>
-
-  <div class="card-sol__img">
-    <img src="./src/assets/images/solution/listening.jpg" alt="image" class="img-cover">
-  </div>
-</article>
-
-<article class="card card-sol col-center">
-  <div class="card-sol__texts col-center">
-
-    <h3 class="subtitle">Content generation</h3>
-    <p class="text">Unlimited and secure translation for fixed price. Translate billions of characters per day</p>
-  </div>
-
-  <div class="card-sol__img">
-    <img src="./src/assets/images/solution/generation.jpg" alt="image" class="img-cover">
-  </div>
-</article>
+            <p class="text hero__text">
+              Offline & Online Translation: image translation, translation
+              history, file translation, bookmarks, dictionary meaning.
+            </p>
+          </div>
+          <a href="#" class="btn btn--main">Request a free trial</a>
         </div>
       </section>
 
-      <section class="product container col-center">
-        <div class="product__texts col-center">
-          <h2 class="title">Who is this product for?</h2>
-          <p class="text product__text">Lingvanex Bot can simply solve a language barrier problem in your team, community,
-            with your international clients and outsourcing partners. It automatically identifies the languages
-            in a conversation and translates all messages of your team members into a chosen language.</p>
-        </div>
-
-        <div class="product__slider col-center js-slider">
-          <div class="row-center product__btns">
-<button class="btn btn--sm product__btn product__btn--active js-slider-control" data-id="1">For travelers</button>
-
-<button class="btn btn--sm product__btn js-slider-control" data-id="2">For travel organization</button>
-
-<button class="btn btn--sm product__btn js-slider-control" data-id="3">For employees</button>
+      <section class="solution">
+        <div class="solution__inner container col-center">
+          <div class="solution__texts col-center">
+            <h2 class="title">Our language solution</h2>
+            <p class="text solution__text"
+              >Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since
+            </p>
           </div>
 
-          <div class="product__cards">
+          <div class="row-center solution__cards">
+            <article class="card card-sol col-center">
+              <div class="card-sol__texts col-center">
+                <h3 class="subtitle">Translation</h3>
+                <p class="text"
+                  >Unlimited and secure translation for fixed price. Translate
+                  billions of characters per day</p
+                >
+              </div>
 
-            <div class="slide slide--active js-slide" data-id="1">
-              <article class="card card-prod">
-                <div class="card-prod__texts ">
+              <div class="card-sol__img">
+                <img
+                  src="./src/assets/images/solution/translation.jpg"
+                  alt="image"
+                  class="img-cover"
+                />
+              </div>
+            </article>
 
-                  <h3 class="title card-prod__title">For travelers</h3>
+            <article class="card card-sol col-center">
+              <div class="card-sol__texts col-center">
+                <h3 class="subtitle">Social listening</h3>
+                <p class="text"
+                  >Unlimited and secure translation for fixed price. Translate
+                  billions of characters per day</p
+                >
+              </div>
 
-                  <ul>
-                    <li class="text card-prod__item">Highlight one word in the text on the page.
-                      </li>
-                    <li class="text card-prod__item">Word meaning, pronunciation, synonyms,hypernyms, hyponyms. and more.</li>
-                    <li class="text card-prod__item">Highlight one word in the text on the page.</li>
-                    <li class="text card-prod__item">Word meaning, pronunciation, synonyms,hypernyms, hyponyms. and more.</li>
-                  </ul>
-                </div>
+              <div class="card-sol__img">
+                <img
+                  src="./src/assets/images/solution/listening.jpg"
+                  alt="image"
+                  class="img-cover"
+                />
+              </div>
+            </article>
 
-                <div class="card-prod__img-wrap">
-                  <img src="./src/assets/images/product/travel.jpg" alt="image" class="img-cover card-prod__img">
-                </div>
-              </article>
-            </div>
+            <article class="card card-sol col-center">
+              <div class="card-sol__texts col-center">
+                <h3 class="subtitle">Content generation</h3>
+                <p class="text"
+                  >Unlimited and secure translation for fixed price. Translate
+                  billions of characters per day</p
+                >
+              </div>
 
-            <div class="slide js-slide" data-id="2">
-              <article class="card card-prod">
-                <div class="card-prod__texts ">
-
-                  <h3 class="title card-prod__title">For travel organization</h3>
-
-                  <ul>
-                    <li class="text card-prod__item">Highlight one word in the text on the page.
-                      </li>
-                    <li class="text card-prod__item">Word meaning, pronunciation, synonyms,hypernyms, hyponyms. and more.</li>
-                    <li class="text card-prod__item">Highlight one word in the text on the page.</li>
-                    <li class="text card-prod__item">Word meaning, pronunciation, synonyms,hypernyms, hyponyms. and more.</li>
-                  </ul>
-                </div>
-
-                <div class="card-prod__img-wrap">
-                  <img src="./src/assets/images/product/organization.jpg" alt="image" class="img-cover card-prod__img">
-                </div>
-              </article>
-            </div>
-
-            <div class="slide js-slide" data-id="3">
-              <article class="card card-prod">
-                <div class="card-prod__texts ">
-
-                  <h3 class="title card-prod__title">For employees</h3>
-
-                  <ul>
-                    <li class="text card-prod__item">Highlight one word in the text on the page.
-                      </li>
-                    <li class="text card-prod__item">Word meaning, pronunciation, synonyms,hypernyms, hyponyms. and more.</li>
-                    <li class="text card-prod__item">Highlight one word in the text on the page.</li>
-                    <li class="text card-prod__item">Word meaning, pronunciation, synonyms,hypernyms, hyponyms. and more.</li>
-                  </ul>
-                </div>
-
-                <div class="card-prod__img-wrap">
-                  <img src="./src/assets/images/product/employees.jpg" alt="image" class="img-cover card-prod__img">
-                </div>
-              </article>
-            </div>
+              <div class="card-sol__img">
+                <img
+                  src="./src/assets/images/solution/generation.jpg"
+                  alt="image"
+                  class="img-cover"
+                />
+              </div>
+            </article>
           </div>
         </div>
+      </section>
 
-        <a href="#" class="btn btn--main">Request a free trial</a>
-      </section> -->
+      <section class="product">
+        <div class="product__inner container col-center">
+          <div class="product__texts col-center">
+            <h2 class="title">Who is this product for?</h2>
+            <p class="text product__text"
+              >Lingvanex Bot can simply solve a language barrier problem in your
+              team, community, with your international clients and outsourcing
+              partners. It automatically identifies the languages in a
+              conversation and translates all messages of your team members into
+              a chosen language.</p
+            >
+          </div>
 
-<section class="help">
-  <div class="container col-center help__inner">
-    <h2 class="title">How can Lingvanex help you?</h2>
+          <div class="product__slider col-center js-slider">
+            <div class="row-center product__btns">
+              <button
+                class="btn btn--sm product__btn product__btn--active js-slider-control"
+                data-id="1"
+                >For travelers</button
+              >
 
-    <div class="help__cards">
+              <button
+                class="btn btn--sm product__btn js-slider-control"
+                data-id="2"
+                >For travel organization</button
+              >
 
-      <article class="card-help col-center">
-  <div class="card-help__img">
-    <img src="./src/assets/icons/trigle.svg" alt="icon">
-  </div>
+              <button
+                class="btn btn--sm product__btn js-slider-control"
+                data-id="3"
+                >For employees</button
+              >
+            </div>
 
-  <div class="card-help__description col-center">
-    <h3 class="subtitle">Book  trips & tickets easily</h3>
+            <div class="product__cards">
+              <div class="slide slide--active js-slide" data-id="1">
+                <article class="card card-prod">
+                  <div class="card-prod__texts">
+                    <h3 class="title card-prod__title">For travelers</h3>
 
-    <p class="text card-help__text">We provide cloud, sdk
-      and on-premise translation solutions. All your private data stays with you.</p>
-  </div>
+                    <ul>
+                      <li class="text card-prod__item"
+                        >Highlight one word in the text on the page.
+                      </li>
+                      <li class="text card-prod__item"
+                        >Word meaning, pronunciation, synonyms,hypernyms,
+                        hyponyms. and more.</li
+                      >
+                      <li class="text card-prod__item"
+                        >Highlight one word in the text on the page.</li
+                      >
+                      <li class="text card-prod__item"
+                        >Word meaning, pronunciation, synonyms,hypernyms,
+                        hyponyms. and more.</li
+                      >
+                    </ul>
+                  </div>
 
-      </article>
+                  <div class="card-prod__img-wrap">
+                    <img
+                      src="./src/assets/images/product/travel.jpg"
+                      alt="image"
+                      class="img-cover card-prod__img"
+                    />
+                  </div>
+                </article>
+              </div>
 
-      <article class="card-help col-center">
-        <div class="card-help__img">
-          <img src="./src/assets/icons/square.svg" alt="icon">
+              <div class="slide js-slide" data-id="2">
+                <article class="card card-prod">
+                  <div class="card-prod__texts">
+                    <h3 class="title card-prod__title"
+                      >For travel organization</h3
+                    >
+
+                    <ul>
+                      <li class="text card-prod__item"
+                        >Highlight one word in the text on the page.
+                      </li>
+                      <li class="text card-prod__item"
+                        >Word meaning, pronunciation, synonyms,hypernyms,
+                        hyponyms. and more.</li
+                      >
+                      <li class="text card-prod__item"
+                        >Highlight one word in the text on the page.</li
+                      >
+                      <li class="text card-prod__item"
+                        >Word meaning, pronunciation, synonyms,hypernyms,
+                        hyponyms. and more.</li
+                      >
+                    </ul>
+                  </div>
+
+                  <div class="card-prod__img-wrap">
+                    <img
+                      src="./src/assets/images/product/organization.jpg"
+                      alt="image"
+                      class="img-cover card-prod__img"
+                    />
+                  </div>
+                </article>
+              </div>
+
+              <div class="slide js-slide" data-id="3">
+                <article class="card card-prod">
+                  <div class="card-prod__texts">
+                    <h3 class="title card-prod__title">For employees</h3>
+
+                    <ul>
+                      <li class="text card-prod__item"
+                        >Highlight one word in the text on the page.
+                      </li>
+                      <li class="text card-prod__item"
+                        >Word meaning, pronunciation, synonyms,hypernyms,
+                        hyponyms. and more.</li
+                      >
+                      <li class="text card-prod__item"
+                        >Highlight one word in the text on the page.</li
+                      >
+                      <li class="text card-prod__item"
+                        >Word meaning, pronunciation, synonyms,hypernyms,
+                        hyponyms. and more.</li
+                      >
+                    </ul>
+                  </div>
+
+                  <div class="card-prod__img-wrap">
+                    <img
+                      src="./src/assets/images/product/employees.jpg"
+                      alt="image"
+                      class="img-cover card-prod__img"
+                    />
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
+
+          <a href="#" class="btn btn--main">Request a free trial</a>
         </div>
-        <div class="card-help__description col-center">
-          <h3 class="subtitle">Translate
-            in real time</h3>
+      </section>
 
-          <p class="text card-help__text">The price starts from
-            $100 / month and depends
-            on number of languages.</p>
-        </div>
+      <section class="help">
+        <div class="container col-center help__inner">
+          <h2 class="title">How can Lingvanex help you?</h2>
 
+          <div class="help__cards">
+            <article class="card-help col-center">
+              <div class="card-help__img">
+                <img src="./src/assets/icons/trigle.svg" alt="icon" />
+              </div>
+
+              <div class="card-help__description col-center">
+                <h3 class="subtitle">Book trips & tickets easily</h3>
+
+                <p class="text card-help__text"
+                  >We provide cloud, sdk and on-premise translation solutions.
+                  All your private data stays with you.</p
+                >
+              </div>
             </article>
 
             <article class="card-help col-center">
               <div class="card-help__img">
-                <img src="./src/assets/icons/circle.svg" alt="icon">
+                <img src="./src/assets/icons/square.svg" alt="icon" />
+              </div>
+              <div class="card-help__description col-center">
+                <h3 class="subtitle">Translate in real time</h3>
+
+                <p class="text card-help__text"
+                  >The price starts from $100 / month and depends on number of
+                  languages.</p
+                >
+              </div>
+            </article>
+
+            <article class="card-help col-center">
+              <div class="card-help__img">
+                <img src="./src/assets/icons/circle.svg" alt="icon" />
               </div>
 
               <div class="card-help__description col-center">
                 <h3 class="subtitle">Translate any hotel services</h3>
 
-                <p class="text card-help__text">Every language model size
-                  is 70mb.SDK uses 200mb
-                  of RAM memory.</p>
+                <p class="text card-help__text"
+                  >Every language model size is 70mb.SDK uses 200mb of RAM
+                  memory.</p
+                >
+              </div>
+            </article>
+
+            <article class="card-help col-center">
+              <div class="card-help__img">
+                <img src="./src/assets/icons/square.svg" alt="icon" />
+              </div>
+              <div class="card-help__description col-center">
+                <h3 class="subtitle">Сommunicate easily</h3>
+
+                <p class="text card-help__text"
+                  >We provide cloud, sdk and on-premise translation solutions.
+                  All your private data stays with you.</p
+                >
+              </div>
+            </article>
+
+            <article class="card-help col-center">
+              <div class="card-help__img">
+                <img src="./src/assets/icons/piramide.svg" alt="icon" />
+              </div>
+              <div class="card-help__description col-center"
+                ><h3 class="subtitle">Knowledge bases for employees</h3>
+
+                <p class="text card-help__text"
+                  >The price starts from $100 / month and depends on number of
+                  languages.</p
+                ></div
+              >
+            </article>
+
+            <article class="card-help col-center">
+              <div class="card-help__img card-help__img--rotate-third">
+                <img src="./src/assets/icons/square.svg" alt="icon" />
               </div>
 
-                  </article>
+              <div class="card-help__description col-center">
+                <h3 class="subtitle">Website & promo translation</h3>
 
-                  <article class="card-help col-center">
-                    <div class="card-help__img">
-                      <img src="./src/assets/icons/square.svg" alt="icon">
-                    </div>
-                    <div class="card-help__description col-center">
-                      <h3 class="subtitle">Сommunicate easily</h3>
+                <p class="text card-help__text"
+                  >SDK has trial project and manual.Dependency managers are
+                  supported.</p
+                ></div
+              >
+            </article>
+          </div>
 
-                      <p class="text card-help__text">We provide cloud, sdk
-                        and on-premise translation solutions. All your private data stays with you.</p>
-                    </div>
-
-                        </article>
-
-                        <article class="card-help col-center">
-                          <div class="card-help__img">
-                            <img src="./src/assets/icons/piramide.svg" alt="icon">
-                          </div>
-                          <div class="card-help__description col-center"><h3 class="subtitle">Knowledge bases for employees</h3>
-
-                            <p class="text card-help__text">The price starts from
-                              $100 / month and depends
-                              on number of languages.</p></div>
-
-                              </article>
-
-      <article class="card-help col-center">
-        <div class="card-help__img card-help__img--rotate-third">
-          <img src="./src/assets/icons/square.svg" alt="icon">
+          <a href="#" class="btn btn--main">Request a free trial</a>
         </div>
-
-        <div class="card-help__description col-center"> <h3 class="subtitle">Website  & promo translation</h3>
-
-          <p class="text card-help__text">SDK has trial project and manual.Dependency managers
-            are supported.</p></div>
-
-                                    </article>
-    </div>
-
-    <a href="#" class="btn btn--main">Request a free trial</a>
-  </div>
-
-</section>
-
-
-
-
-
+      </section>
     </main>
     <script type="module" src="/src/js/main.js"></script>
   </body>
